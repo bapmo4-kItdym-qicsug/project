@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+}
+
+.images a{
+    margin: 15px;
+}
+
+.footer_text{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    gap: 10px;
+    color: white;
+}
+
+.footer_text p{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input_footer{
+    background-color: #212529;
+    background-image: url("https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/map-image.png");
+}
+
+.inputs{
+    justify-content: center;
+    display: flex;
+    height: 250px;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.input_one{
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+
+.input_one input{
+    padding-left: 10px;
+}
+
+.input_one input{
+    height: 100%;
+    width: 500px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.input_two input{
+    width: 500px;
+    height: 100%;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    /* text-align: start; */
+    padding-left: 10px;
+    
+}
+
+.button_footer button{
+    width: 230px;
+    height: 70px;
+    background-color:gold;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.button_footer{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding-bottom: 90px;
+}
+
+.around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.around .center{
+    display: flex;
+    gap: 15px;
+}
+
+.center img:active{
+    border: 5px solid gray;
+    border-radius: 100%;
+}
+
+ .center img{
+    height: 35px;
+    width: auto;
+    border: 5px solid transparent;
+    transition: 0.4s;
+}
+
+.right a:hover{
+    color: goldenrod;
+
+}
+
+.right{
+    display: flex;
+    gap: 15px;
+}
+
+.right a{
+    color: gold;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
